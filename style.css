@@ -23,15 +23,22 @@ nav {
     margin: 3em;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
 #topdiv {
     background-color: #2D2E32;
     height: 30em;
 }
 
 #bottomdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 1em;
     background-color: #25262A;
-    height: 60em;
 }
 
 .profile img {
@@ -76,24 +83,36 @@ nav {
 }
 
 .lang {
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.7s;
     border-radius: 20px;
-    width: 8rem;
     height: 8rem;
+    width: 8rem;
     padding: 0.5em;
+    margin: 0em 1em 0em 1em;
 }
 
 .lang:hover {
     transform: scale(1.5);
+    box-shadow: 10px 5px 1px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
 
 .langcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2.5em 0;
     background-color: #25262A;
-    border: 2px solid #ccc;
     border-radius: 20px;
-    width: 80%;
     padding-top: 2em;
     padding-bottom: 2em;
+    width: 50%;
+}
+
+.langcontainer .row {
+    padding-top: 3em;
+    gap: 1em;
+    justify-content: space-between;
 }
 
 .buttons {
@@ -134,8 +153,9 @@ nav {
 }
 
 .bigme img {
-    width: 80%;
-    height: 80%;
+    width: 30em;
+    height: 30em;
+    margin-left: 2em;
     object-fit: contain;
 }
 
@@ -158,6 +178,7 @@ nav {
     border-radius: 50%;
     background-color: #25262A;
     overflow: hidden;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .bubble svg {
@@ -166,34 +187,52 @@ nav {
     border-radius: 50%;
 }
 
+
+/*Bubbles*/
+
 .bubble:nth-child(1) {
+    top: 12em;
+    left: 5em;
+    transform: scale(0.7);
+}
+
+.bubble:nth-child(2) {
+    top: 15em;
+    left: 0em;
+    transform: scale(1);
+}
+
+.bubble:nth-child(3) {
+    top: 20em;
+    left: 5em;
+    transform: scale(1.5);
+}
+
+.bubble:nth-child(4) {
     top: 22em;
     left: 15em;
     transform: scale(2);
 }
 
-.bubble:nth-child(2) {
+.bubble:nth-child(5) {
     top: 20em;
     left: 25em;
     transform: scale(1.5);
 }
 
-.bubble:nth-child(3) {
-    top: 20em;
-    left: 6em;
-    transform: scale(1.5);
+.bubble:nth-child(6) {
+    top: 15em;
+    left: 30em;
 }
 
-.bubble:nth-child(4) {
-    top: 13em;
-    left: 26em;
+.bubble:nth-child(7) {
+    top: 12em;
+    left: 25em;
     transform: scale(0.7);
 }
 
-.bubble:nth-child(5) {
-    top: 15em;
-    left: 31em;
-}
+
+/*End Bubbles*/
 
 .mecont {
     position: relative;
