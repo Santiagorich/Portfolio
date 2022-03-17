@@ -102,6 +102,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 2.5em 0;
+    justify-items: center;
     background-color: #25262A;
     border-radius: 20px;
     padding-top: 2em;
