@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+.headimg img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+body {
+    background-color: #2D2E32;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: #2D2E32 !important;
+    margin: 3em;
+}
+
+#topdiv {
+    background-color: #2D2E32;
+    height: 30em;
+}
+
+#bottomdiv {
+    padding-top: 1em;
+    background-color: #25262A;
+    height: 60em;
+}
+
+.profile img {
+    width: 10em;
+    height: 10em;
+    transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+
+.profile {
+    position: fixed;
+    color: white;
+    margin: 1em;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
+    border: 2px solid #ccc;
+    background-color: #25262A;
+    z-index: 1000;
+}
+
+.profile p {
+    margin: 0;
+    padding: 0;
+}
+
+.profile:hover {
+    width: 90%;
+    overflow: hidden;
+}
+
+.lang img {
+    margin-top: 0.5em;
+    width: 70%;
+    height: 70%;
+    object-fit: fill;
+}
+
+.lang p {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.lang {
+    transition: transform 0.2s;
+    border-radius: 20px;
+    width: 8rem;
+    height: 8rem;
+    padding: 0.5em;
+}
+
+.lang:hover {
+    transform: scale(1.5);
+}
+
+.langcontainer {
+    background-color: #25262A;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 80%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.buttons {
+    margin-right: 2em;
+}
+
+.buttons svg {
+    width: 2em;
+    height: 2em;
+    fill: white;
+}
+
+.buttons label {
+    margin-left: 0.5em;
+    color: #6F7071;
+    margin-bottom: 0;
+}
+
+.email {
+    display: flex;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #6F7071;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+}
+
+.email svg {
+    width: 70%;
+    fill: #6EF3A5;
+}
+
+.bigme {
+    width: 100%;
+    height: 95%;
+    z-index: 1;
+}
+
+.bigme img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.textincenter {
+    align-items: flex-end;
+}
+
+.bubbles {
+    position: relative;
+    z-index: 3;
+}
+
+.bubble {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: #25262A;
+    overflow: hidden;
+}
+
+.bubble svg {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.bubble:nth-child(1) {
+    top: 22em;
+    left: 15em;
+    transform: scale(2);
+}
+
+.bubble:nth-child(2) {
+    top: 20em;
+    left: 25em;
+    transform: scale(1.5);
+}
+
+.bubble:nth-child(3) {
+    top: 20em;
+    left: 6em;
+    transform: scale(1.5);
+}
+
+.bubble:nth-child(4) {
+    top: 13em;
+    left: 26em;
+    transform: scale(0.7);
+}
+
+.bubble:nth-child(5) {
+    top: 15em;
+    left: 31em;
+}
+
+.mecont {
+    position: relative;
+}
+
+.backdiv {
+    position: absolute;
+    width: 30em;
+    height: 30em;
+    background: rgb(40, 41, 43);
+    background: -moz-linear-gradient(90deg, rgba(40, 41, 43, 1) 0%, rgba(44, 45, 49, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(40, 41, 43, 1) 0%, rgba(44, 45, 49, 1) 100%);
+    background: linear-gradient(90deg, rgba(40, 41, 43, 1) 0%, rgba(44, 45, 49, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#28292b", endColorstr="#2c2d31", GradientType=1);
+    border-radius: 50%;
+    z-index: 1;
+}
