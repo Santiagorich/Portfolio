@@ -57,6 +57,7 @@ h2 {
     transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
     border: 5px solid rgba(0, 0, 0, 0.5);
     background-color: #25262A;
+    border-radius: 20px;
     z-index: 1000;
 }
 
@@ -161,7 +162,7 @@ h2 {
 }
 
 .textincenter {
-    align-items: flex-end;
+    gap: 1em;
 }
 
 .bubbles {
@@ -250,4 +251,48 @@ h2 {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#28292b", endColorstr="#2c2d31", GradientType=1);
     border-radius: 50%;
     z-index: 1;
+}
+
+.chip {
+    background-color: #6EF3A5;
+    color: #25262A;
+    font-weight: bold;
+    max-width: fit-content;
+    border-radius: 2px;
+    padding: 0.25em;
+}
+
+.saying {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.tech {
+    gap: 2em;
+}
+
+.carousel-item {
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    width: 3em;
+    height: 1em;
+}
+
+.gotext {
+    color: #6EF3A5;
+}
+
+#explaintext {
+    margin-top: 2em;
+}
+
+.blackcard {
+    background: linear-gradient(90deg, rgba(40, 41, 43, 1) 0%, rgba(44, 45, 49, 1) 100%);
+    padding: 2em;
+    border-radius: 20px;
 }
