@@ -342,3 +342,15 @@ h2 {
     flex-direction: column;
     justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        margin: 1em;
+    }
+    .navbar {
+        justify-content: unset;
+    }
+    #gitlabel {
+        display: none;
+    }
+}
