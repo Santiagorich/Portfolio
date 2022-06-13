@@ -116,7 +116,28 @@ h2 {
 }
 
 .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
     margin-right: 2em;
+}
+
+.buttons>div {
+    padding: 0.5em;
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.buttons>div:hover {
+    box-shadow: 10px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.buttons>div>a {
+    text-decoration: none;
+}
+
+.buttons>div>a * {
+    cursor: pointer;
 }
 
 .buttons svg {
@@ -126,7 +147,6 @@ h2 {
 }
 
 .buttons label {
-    margin-left: 0.5em;
     color: #6F7071;
     margin-bottom: 0;
 }
@@ -339,8 +359,7 @@ h2 {
 
 #expl {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-right: 0px;
 }
 
 .fadingline {
@@ -350,13 +369,23 @@ h2 {
 }
 
 .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 2px;
     padding: 0px;
-    background: -webkit-linear-gradient(270deg, rgba(45, 46, 50, 1) 0%, rgba(110, 243, 165, 1) 50%, rgba(45, 46, 50, 1) 100%);
+    /*background: -webkit-linear-gradient(270deg, rgba(45, 46, 50, 1) 0%, rgba(110, 243, 165, 1) 50%, rgba(45, 46, 50, 1) 100%);*/
+    background-color: #6EF3A5;
 }
 
 #bottomdiv {
-    margin: 2em;
+    padding: 1em;
+}
+
+.prtech {
+    margin-top: 1em;
+    font-size: small;
+    overflow-wrap: break-word;
 }
 
 .pryear {
@@ -381,22 +410,58 @@ h2 {
 }
 
 #projectsl {
-    display: flex;
     flex-direction: column;
-    gap: 5em;
     width: 50%
 }
 
 #projectsr {
-    display: flex;
     flex-direction: column;
-    gap: 5em;
     width: 50%
 }
 
 .projcol {
     display: flex;
     flex-direction: column;
+}
+
+.projrow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.75em;
+    gap: 1em;
+}
+
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 20px solid #25262A;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #25262A;
+    border-bottom: 20px solid transparent;
+    right: -19px;
+    top: 0px;
+}
+
+.sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #25262A;
+    border-top: 20px solid #25262A;
+    border-bottom: 20px solid transparent;
+    left: -19px;
+    top: 0px;
+}
+
+.dot {
+    background-color: #6EF3A5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 .slide-in-from-right {
@@ -422,6 +487,19 @@ h2 {
     }
     100% {
         transform: translateX(0%);
+    }
+}
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(110, 243, 165, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
 }
 
