@@ -120,7 +120,7 @@ for (let project of projects) {
     dot.classList.add("dot");
     dot.classList.add("pulse");
     let pdiv = document.createElement("div");
-    pdiv.classList.add("blackcard2");
+    pdiv.classList.add("blackcard");
     pdiv.classList.add("col");
     let prow = document.createElement("div");
     prow.classList.add("projrow");
@@ -130,11 +130,11 @@ for (let project of projects) {
     let ddiv = document.createElement("div");
     ddiv.innerHTML = `<div class="prdesc">${project.desc}</div>`
     let tdiv = document.createElement("div");
-    tdiv.innerHTML = `<div class="prtech">Tech: ${project.tech.join(", ")}</div>`
+    tdiv.innerHTML = `<div class="prtech"><span>Tech: ${project.tech.join(", ")}</span></div>`
     pdiv.appendChild(prow);
     pdiv.appendChild(ddiv);
     pdiv.appendChild(tdiv);
-    dot.style.marginTop = `${lastheight-10}px`;
+    dot.style.marginTop = `${(lastheight!=0)?lastheight-10:lastheight}px`;
     timeline.appendChild(dot);
     (project.id % 2 == 0) ? observerl.observe(pdiv, options): observer.observe(pdiv, options);
     (project.id % 2 == 0) ? projdivr.appendChild(pdiv): projdivl.appendChild(pdiv);

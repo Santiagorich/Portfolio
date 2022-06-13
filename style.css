@@ -37,7 +37,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
+    padding: 2em;
     background-color: #25262A;
 }
 
@@ -363,8 +363,8 @@ h2 {
 }
 
 .fadingline {
-    width: 50%;
-    height: 0.25em;
+    width: 100%;
+    height: 0.125em;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#2D2E32), to(#2D2E32), color-stop(50%, #6EF3A5));
 }
 
@@ -379,7 +379,7 @@ h2 {
 }
 
 #bottomdiv {
-    padding: 1em;
+    padding: 2em;
 }
 
 .prtech {
@@ -436,9 +436,9 @@ h2 {
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 20px solid #25262A;
+    border-left: 20px solid #2D2E32;
     border-right: 20px solid transparent;
-    border-top: 20px solid #25262A;
+    border-top: 20px solid #2D2E32;
     border-bottom: 20px solid transparent;
     right: -19px;
     top: 0px;
@@ -450,8 +450,8 @@ h2 {
     height: 0px;
     position: absolute;
     border-left: 20px solid transparent;
-    border-right: 20px solid #25262A;
-    border-top: 20px solid #25262A;
+    border-right: 20px solid #2D2E32;
+    border-top: 20px solid #2D2E32;
     border-bottom: 20px solid transparent;
     left: -19px;
     top: 0px;
