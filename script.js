@@ -141,3 +141,5 @@ for (let project of projects) {
     pdiv.style.marginTop = `${lastheight}px`;
     lastheight = pdiv.clientHeight;
 }
+
+document.getElementById('scroll-here-plz').scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
