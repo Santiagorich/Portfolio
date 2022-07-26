@@ -79,14 +79,14 @@ const projects = [{
     {
         id: 8,
         year: 2021,
-        title: "WhatsApp bot to play wordle synchronized with the original page",
+        title: "WordleWpp",
         desc: `A simple bot that lets you play wordle using whatsapp, mostly DOM parsing and sessions, the challenge I faced was actually keeping it as a serverless function because the game is rendered dynamically, found a library for "lamba puppeteer" and a workaround with the way the game was saved, it's working and it's fun to play with friends `,
         tech: ["Node.JS", "Serverless", "AWS Lambda", "Lambda Puppeteer"],
     },
     {
         id: 9,
         year: 2021,
-        title: "Text to Speech in real time",
+        title: "RealTimeTTS",
         desc: `Some of the first projects I made for testing GitHub Pages, simple text to speech that gets the sounds from an external api I found through a function I hosted on Vercel, it was originally meant for someone that needed it for communicating so I also made it for phone. `,
         tech: ["Javascript", "Serverless", "GitHub Pages"],
     },
@@ -100,9 +100,9 @@ const projects = [{
     {
         id: 11,
         year: 2022,
-        title: "Universal scraper -> Tekky",
+        title: "Tekky",
         desc: `This app is meant to extract data from virtually any online catalog with option to search for items in nearby stores, this is actually the first version of what I would later call "tekky" which is a more refined version of this scrapper, I'm still on it, the point is to cover as many stores as I can, currently doing it in next.js with even more functionalities and some extra data I will use throughout some other apps I'm making. `,
-        tech: ["Python", "Scrapy", "BS4", "JavaScript", "Next.js", "Google Places API"],
+        tech: ["Python", "Scrapy", "BS4", "JavaScript", "Next.js", "Google Places API", "FireBase"],
     },
     {
         id: 12,
