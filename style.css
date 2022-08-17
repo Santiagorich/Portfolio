@@ -11,6 +11,22 @@
     font-size: 1.5em;
 }
 
+a {
+    color: #6EF3A5;
+}
+
+a:hover {
+    color: #5cc989;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #6EF3A5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -35,6 +51,18 @@ h2 {
 #topdiv {
     background-color: #2D2E32;
     height: 30em;
+}
+
+#footerdiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2D2E32;
+    height: 4em;
+}
+
+#footerdiv p {
+    color: #6c757d;
 }
 
 #middlediv {
@@ -344,21 +372,8 @@ h2 {
 }
 
 .contactme:visited {
-    color: #6EF3A5;
     background-color: transparent;
     text-decoration: none;
-}
-
-.contactme:hover {
-    color: #5cc989;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.contactme:active {
-    color: #6EF3A5;
-    background-color: transparent;
-    text-decoration: underline;
 }
 
 #expl {
