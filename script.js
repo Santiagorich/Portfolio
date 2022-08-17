@@ -107,9 +107,9 @@ const projects = [{
     {
         id: 12,
         year: 2022,
-        title: "New portal for IBM client",
-        desc: `For a new portal our client wants being the only one with react knowledge in my team I'm making both the pages and part of the design with the UI/UX team, for the moment we are short staffed but the plan is that I take over the front end part of the project as I have shown the most proficiency when it comes to front end in general, for now we need to make the components from 0 as this is the first portal they make with React.`,
-        tech: ["React", "Figma", "UI/UX", "HTML", "CSS", "JS"],
+        title: "New portals for IBM client",
+        desc: `For our last projects I'm mostly the one making decisions for the development and design parts of the Front-End (Tech stacks, viability, etc) and taking over most of the front end tasks.`,
+        tech: ["JBoss", "WebSphere", "React", "J2EE", "JPA", "WebServices", "JSF", "RichFaces", "Javascript", "Facelets", "HTML5", "CSS3", "Figma"],
     },
 ];
 

@@ -476,6 +476,19 @@ h2 {
     animation: 1.5s ease-out 0s 1 slideInFromLeft forwards;
 }
 
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.present svg {
+    height: 2em;
+    width: 2em;
+    transform: rotate(90deg);
+}
+
 @keyframes slideInFromRight {
     0% {
         transform: translateX(50%);
