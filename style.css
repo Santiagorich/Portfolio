@@ -539,8 +539,9 @@ h2 {
     nav {
         margin: 1em;
     }
-    .navbar {
-        justify-content: unset;
+    nav.navbar {
+        flex-direction: column;
+        justify-content: center;
     }
     #gitlabel {
         display: none;
