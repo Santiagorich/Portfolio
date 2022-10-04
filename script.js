@@ -111,6 +111,13 @@ const projects = [{
         desc: `For our last projects I'm mostly the one making decisions for the development and design parts of the Front-End (Tech stacks, viability, etc) and taking over most of the front end tasks.`,
         tech: ["JBoss", "WebSphere", "React", "J2EE", "JPA", "WebServices", "JSF", "RichFaces", "Javascript", "Facelets", "HTML5", "CSS3", "Figma"],
     },
+    {
+        id: 13,
+        year: 2022,
+        title: "Fast Song App",
+        desc: `App that displays trending music at the moment, the main goal of the app was to be as fast as possible no matter the device or connection on first load`,
+        tech: ["NextJS", "React", "TailwindCSS", "Firebase", "Vercel"],
+    },
 ];
 
 
