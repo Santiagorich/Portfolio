@@ -115,7 +115,7 @@ const projects = [{
         id: 13,
         year: 2022,
         title: "Fast Song App",
-        desc: `App that displays trending music at the moment, the main goal of the app was to be as fast as possible no matter the device or connection on first load`,
+        desc: `App that displays trending music at the moment, the main goal of the app was to be as fast as possible no matter the device or connection on first load using Image Optimization (Manual), Lazy Loading, SSR, SSG, etc`,
         tech: ["NextJS", "React", "TailwindCSS", "Firebase", "Vercel"],
     },
 ];
