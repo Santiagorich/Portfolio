@@ -56,6 +56,8 @@ h2 {
 #footerdiv {
     display: flex;
     justify-content: space-evenly;
+    padding-left: 2em;
+    padding-right: 2em;
     align-items: center;
     background-color: #2D2E32;
     height: 4em;
